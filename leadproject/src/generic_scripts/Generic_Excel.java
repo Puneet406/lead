@@ -12,12 +12,7 @@ public class Generic_Excel {
 
 	
 	public static String getdata(String sheet,int row,int cell) throws EncryptedDocumentException, IOException
-	{
-		FileInputStream fis=new FileInputStream("./excel/Test.xlsx");
-		Workbook book = WorkbookFactory.create(fis);
-		
-		Stel.toString();
-		return value;
+	
 	}
 	
 	    

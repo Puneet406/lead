@@ -13,9 +13,7 @@ public class Generic_Photo {
            
 	
 	     public static void getPhoto(WebDriver driver) throws IOException {
-		 String photo = "./photos/";
-		 Date d = new Date();
-		 String date = d.toString().replaceAll(":", "-");
+		 String().replaceAll(":", "-");
 	     TakesScreenshot ts=(TakesScreenshot) driver;
 	 
 	     File dst = new File(photo+date+".jpeg");

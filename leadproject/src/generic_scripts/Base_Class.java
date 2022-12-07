@@ -18,10 +18,6 @@ public class Base_Class implements Framework_constants {
     }
     
    
-    public void close(ITestResult result) throws IOException
-    {
-    	if(ITestResult.FAILURE==result.getStatus())
-    	{
     		Generic_Photo.getPhoto(driver);
     	}
 		driver.close();
