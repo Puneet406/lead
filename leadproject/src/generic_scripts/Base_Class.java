@@ -13,12 +13,11 @@ public class Base_Class implements Framework_constants {
     @BeforeMethod
     public void openapp() 
     {
-    	System.setProperty(gecko_key,gecko_value);
-        driver=new FirefoxDriver();
+    
         driver.get(url);   
     }
     
-    @AfterMethod
+   
     public void close(ITestResult result) throws IOException
     {
     	if(ITestResult.FAILURE==result.getStatus())

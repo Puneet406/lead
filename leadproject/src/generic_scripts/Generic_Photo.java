@@ -17,8 +17,8 @@ public class Generic_Photo {
 		 Date d = new Date();
 		 String date = d.toString().replaceAll(":", "-");
 	     TakesScreenshot ts=(TakesScreenshot) driver;
-	     File src = ts.getScreenshotAs(OutputType.FILE);
+	 
 	     File dst = new File(photo+date+".jpeg");
-	     FileUtils.copyFile(src, dst);
+ dst);
 }
 }
