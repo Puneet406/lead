@@ -15,7 +15,7 @@ public class Generic_Excel {
 	{
 		FileInputStream fis=new FileInputStream("./excel/Test.xlsx");
 		Workbook book = WorkbookFactory.create(fis);
-		Cell cel = book.getSheet(sheet).getRow(row).getCell(cell);
+		
 		String value = cel.toString();
 		return value;
 	}
