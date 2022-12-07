@@ -16,7 +16,7 @@ public class Generic_Excel {
 		FileInputStream fis=new FileInputStream("./excel/Test.xlsx");
 		Workbook book = WorkbookFactory.create(fis);
 		
-		String value = cel.toString();
+		Stel.toString();
 		return value;
 	}
 	

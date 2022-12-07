@@ -19,6 +19,6 @@ public class Generic_Photo {
 	     TakesScreenshot ts=(TakesScreenshot) driver;
 	 
 	     File dst = new File(photo+date+".jpeg");
-	     FileUtils.copyFile(src, dst);
+ dst);
 }
 }

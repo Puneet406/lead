@@ -17,7 +17,7 @@ public class Base_Class implements Framework_constants {
         driver.get(url);   
     }
     
-    @AfterMethod
+   
     public void close(ITestResult result) throws IOException
     {
     	if(ITestResult.FAILURE==result.getStatus())
